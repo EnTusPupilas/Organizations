@@ -1,0 +1,8 @@
+{
+    "name": "Organization test",
+    "type": "NGO",
+    "description": "NGO organization",
+    "email": "contact@organization.test",
+    "address": "405 East 42nd Street, New York",
+    "url": "organization.test"
+}

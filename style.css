@@ -1,0 +1,50 @@
+body {
+    background: linear-gradient(to bottom, #268cb2, #697bc3);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 2%; /* Reduce el espacio superior */
+    color: #fff;
+}
+
+#man_technologist {
+    font-size: 70px;
+    margin-bottom: 10px; /* Reduce el espacio inferior del icono */
+}
+
+.btnForm {
+    background: #19b9e7;
+    border-color: #1b9fe2;
+    color: #fff;
+    width: 200px; /* Reduce el ancho del botón */
+}
+
+.btnForm:hover {
+    background: #19b9e7;
+    outline: 0;
+    opacity: 0.6;
+    color: #fff;
+}
+
+.advisor-login-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#data {
+    text-align: center; /* Centra los elementos del contenedor */
+}
+
+#data label {
+    display: block; /* Asegura que cada label esté en una nueva línea */
+    margin: 5px 0; /* Agrega un margen para separar los labels */
+}
+
