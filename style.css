@@ -1,29 +1,34 @@
 body {
-    background: linear-gradient(to bottom, #268cb2, #697bc3);
+    background: linear-gradient(to bottom, #e74c3c, #f39c12);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+    height: 100vh;
+    /* Asegura que el fondo cubra toda la pantalla */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 h1 {
-    margin-top: 2%; /* Reduce el espacio superior */
+    margin-top: 2%;
+    /* Reduce el espacio superior */
     color: #fff;
 }
 
 #man_technologist {
     font-size: 70px;
-    margin-bottom: 10px; /* Reduce el espacio inferior del icono */
+    margin-bottom: 10px;
+    /* Reduce el espacio inferior del icono */
 }
 
 .btnForm {
     background: #19b9e7;
     border-color: #1b9fe2;
     color: #fff;
-    width: 200px; /* Reduce el ancho del botón */
+    width: 200px;
+    /* Reduce el ancho del botón */
 }
 
 .btnForm:hover {
@@ -40,11 +45,13 @@ h1 {
 }
 
 #data {
-    text-align: center; /* Centra los elementos del contenedor */
+    text-align: center;
+    /* Centra los elementos del contenedor */
 }
 
 #data label {
-    display: block; /* Asegura que cada label esté en una nueva línea */
-    margin: 5px 0; /* Agrega un margen para separar los labels */
+    display: block;
+    /* Asegura que cada label esté en una nueva línea */
+    margin: 5px 0;
+    /* Agrega un margen para separar los labels */
 }
-
