@@ -54,4 +54,5 @@ h1 {
     /* Asegura que cada label esté en una nueva línea */
     margin: 5px 0;
     /* Agrega un margen para separar los labels */
+    color: #fff;
 }
